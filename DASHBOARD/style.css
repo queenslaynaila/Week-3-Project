@@ -23,3 +23,14 @@ h2 {
 .overtime {
   margin-left: 50px;
 }
+
+.btn {
+  padding: 10px;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
+.btn2 {
+  cursor: pointer;
+}
