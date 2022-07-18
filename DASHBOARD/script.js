@@ -1,18 +1,24 @@
-function sum(){
+var sellingPrice = 45;
+var totalProduction
+var totalDailyProduction = a + b + c + d
+
+function sum() {
     a = Number(document.calculator.a.value);
     b = Number(document.calculator.b.value);
     c = Number(document.calculator.c.value);
     d = Number(document.calculator.d.value);
-    e = Number(document.calculator.e.value);
-    f = a + b + c + d + e;
-    document.calculator.total.value = f;
-    document.calculator.daily.value = f * 45
+    totalDailyProduction= a + b + c + d ;
+    document.calculator.total.value = totalDailyProduction;
+    document.calculator.daily.value = totalDailyProduction * sellingPrice
 }
+
+
+
 
 function weekly() {
     
-    document.calculator2.week.value= f * 45 * 7
-
-   
-    
+    document.calculator2.week.value= totalDailyProduction * sellingPrice * 7  
 }
+
+
+
