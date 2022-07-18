@@ -6,5 +6,6 @@ function sum(){
     e = Number(document.calculator.e.value);
     f = a + b + c + d + e;
     document.calculator.total.value = f;
-    document.calculator2.daily.value = f * 45
+    document.calculator.daily.value = f * 45
 }
+
