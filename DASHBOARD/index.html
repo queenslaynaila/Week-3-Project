@@ -9,50 +9,52 @@
 </head>
   <body>
     <h2>EXPECTED OUTPUT</h2>
-
-    <form name="calculator" action="submit" onsubmit="produceReport();">
-      <label for="DATE">DATE:</label><br />
-      <input type="date" id="shedA" name="date" /><br></br>
-      <label for="SHED A">SHED A:</label><br />
-      <input type="number" id="shedA" name="a" /><br></br>
-      <label for="SHED B">SHED B:</label><br />
-      <input type="number" id="shedB" name="b" /><br /><br />
-      <label for="SHED C">SHED C:</label><br />
-      <input type="number" id="shedC" name="c" /><br /><br />
-      <label for="SHED D">SHED D:</label><br />
-      <input type="number" id="shedD" name="d" /><br /><br />
-      <label for="SHED E">SHED E:</label><br />
-      <input type="number" id="shedE" name="e" /><br /><br />
-      <label for="TOTAL">TOTAL PRODUCTION</label><br />
-      <input type="text" name="total">
+    <div class="formdetails">
+       <form name="calculator" action="submit" onsubmit="produceReport();">
+         <label for="DATE">DATE:</label><br />
+         <input type="date" id="shedA" name="date" /><br></br>
+         <label for="SHED A">SHED A:</label><br />
+         <input type="number" id="shedA" name="a" /><br></br>
+         <label for="SHED B">SHED B:</label><br />
+         <input type="number" id="shedB" name="b" /><br /><br />
+         <label for="SHED C">SHED C:</label><br />
+         <input type="number" id="shedC" name="c" /><br /><br />
+         <label for="SHED D">SHED D:</label><br />
+         <input type="number" id="shedD" name="d" /><br /><br />
+         <label for="SHED E">SHED E:</label><br />
+         <input type="number" id="shedE" name="e" /><br /><br />
+         <label for="TOTAL">TOTAL PRODUCTION</label><br />
+          <input type="text" name="total">
     
-      <input type="button" value="SUBMIT" onclick="javascript:sum();">
-    </form>
-
+         <input type="button" value="SUBMIT" onclick="javascript:sum();">
+      </form>
+   </div>
 
     <!-- SELLING PRICE -->
     <h2>INCOME OVER TIME</h2>
-    <form name="calculator2">
-      <label for="daily income">DAILY INCOME:</label><br />
-      <input type="text" name="daily">
-
-      <input type="button" value="CALCULATE DAILY INCOME" onclick="javascript:multiply();"> <br>
+    <div class="overtime">
+      <form name="calculator2">
+        <label for="daily income">DAILY INCOME:</label><br />
+        <input type="text" name="daily">
+  
+        <input type="button" value="CALCULATE DAILY INCOME" onclick="javascript:multiply();"> <br>
+        
+        <label for="weekly income">WEEKLY INCOME:</label><br />
+        <input type="text" name="week">
       
-      <label for="weekly income">WEEKLY INCOME:</label><br />
-      <input type="text" name="week">
-    
-      <input type="button" value="CALCULATE WEEKLY INCOME" onclick="weekly();"> <br>
-
-      <label for="monthly income">MONTHLY INCOME:</label><br />
-      <input type="text" name="month">
-    
-      <input type="button" value="CALCULATE MONTHLY INCOME" onclick="javascript:sum();"> <br>
-
-      <label for="yearly income">ANNUAL INCOME:</label><br />
-      <input type="text" name="year">
-    
-      <input type="button" value="CALCULATE ANNUAL INCOME" onclick="javascript:sum();"><br>
-    </form>
+        <input type="button" value="CALCULATE WEEKLY INCOME" onclick="weekly();"> <br>
+  
+        <label for="monthly income">MONTHLY INCOME:</label><br />
+        <input type="text" name="month">
+      
+        <input type="button" value="CALCULATE MONTHLY INCOME" onclick="javascript:sum();"> <br>
+  
+        <label for="yearly income">ANNUAL INCOME:</label><br />
+        <input type="text" name="year">
+      
+        <input type="button" value="CALCULATE ANNUAL INCOME" onclick="javascript:sum();"><br>
+      </form>  
+    </div>
     
 
     
