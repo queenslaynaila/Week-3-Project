@@ -1,9 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>TOTAL PRODUCTION FORM</title>
+</head>
   <body>
-    <h2>TOTAL PRODUCTION</h2>
+    <h2>EXPECTED OUTPUT</h2>
 
     <form name="calculator">
+      <label for="DATE">DATE:</label><br />
+      <input type="date" id="shedA" name="date" /><br></br>
       <label for="SHED A">SHED A:</label><br />
       <input type="number" id="shedA" name="a" /><br></br>
       <label for="SHED B">SHED B:</label><br />
@@ -19,6 +28,28 @@
     
       <input type="button" value="CALCULATE TOTAL PRODUCTION" onclick="javascript:sum();">
     </form>
+     
+
+    <!-- SELLING PRICE -->
+    <h2>INCOME OVER TIME</h2>
+    <form>
+      <input type="text" name="total">
+    
+      <input type="button" value="CALCULATE WEEKLY PRODUCTION" onclick="javascript:sum();"> <br>
+
+      <input type="text" name="total">
+    
+      <input type="button" value="CALCULATE MONTHLY PRODUCTION" onclick="javascript:sum();"> <br>
+
+      <input type="text" name="total">
+    
+      <input type="button" value="CALCULATE ANNUAL PRODUCTION" onclick="javascript:sum();"><br>
+    </form>
+
+
+
+    </form>
+
 
     <script src="script.js"></script>
   </body>
