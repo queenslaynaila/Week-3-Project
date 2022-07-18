@@ -9,3 +9,10 @@ function sum(){
     document.calculator.daily.value = f * 45
 }
 
+function weekly() {
+    
+    document.calculator2.week.value= f * 45 * 7
+
+   
+    
+}
