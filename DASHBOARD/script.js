@@ -8,5 +8,3 @@ function sum(){
     document.calculator.total.value = f;
     document.calculator2.daily.value = f * 45
 }
-
-
