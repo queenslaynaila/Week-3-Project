@@ -45,13 +45,16 @@
         <label for="monthly income">MONTHLY INCOME:</label><br />
         <input type="text" name="month">
       
-        <input type="button" class="btn2" value="CALCULATE MONTHLY INCOME" onclick="javascript:sum();"> <br>
+        <input type="button" class="btn2" value="CALCULATE MONTHLY INCOME" onclick="monthly();"> <br>
   
         <label for="yearly income">ANNUAL INCOME:</label><br />
-        <input type="text" name="year">
+        <input type="text" name="year" id="year">
       
-        <input type="button"  class="btn2" value="CALCULATE ANNUAL INCOME" onclick="javascript:sum();"><br>
+        <input type="button"  class="btn2" value="CALCULATE ANNUAL INCOME" onclick="yearly();"><br>
       </form>  
+      <form>
+        <textarea  id="total">Report Output</textarea>
+      </form>
     </div>
     
 

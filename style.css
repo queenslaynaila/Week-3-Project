@@ -69,3 +69,9 @@ div.loginButtonContainer button {
   padding: 10px, 60px;
   border: none;
 }
+
+.textarea{
+  width: 800px;
+  height: 200px;
+}
+
