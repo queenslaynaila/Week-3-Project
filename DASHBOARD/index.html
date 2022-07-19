@@ -34,28 +34,31 @@
 
     <!-- SELLING PRICE -->
     <h2>INCOME OVER TIME</h2>
-    <div class="overtime">
-      <form name="calculator2">
+    <div class="main">
+      <div class="overtime">
+        <form name="calculator2">
+          
+          <label for="weekly income">WEEKLY INCOME:</label><br />
+          <input type="text" name="week">
         
-        <label for="weekly income">WEEKLY INCOME:</label><br />
-        <input type="text" name="week">
-      
-        <input type="button" class="btn2" value="CALCULATE WEEKLY INCOME" onclick="weekly();"> <br>
-  
-        <label for="monthly income">MONTHLY INCOME:</label><br />
-        <input type="text" name="month">
-      
-        <input type="button" class="btn2" value="CALCULATE MONTHLY INCOME" onclick="monthly();"> <br>
-  
-        <label for="yearly income">ANNUAL INCOME:</label><br />
-        <input type="text" name="year" id="year">
-      
-        <input type="button"  class="btn2" value="CALCULATE ANNUAL INCOME" onclick="yearly();"><br>
-      </form>  
-      <form>
-        <textarea  id="total">Report Output</textarea>
-      </form>
+          <input type="button" class="btn2" value="CALCULATE WEEKLY INCOME" onclick="weekly();"> <br>
+    
+          <label for="monthly income">MONTHLY INCOME:</label><br />
+          <input type="text" name="month">
+        
+          <input type="button" id = "monthly" class="btn2" value="CALCULATE MONTHLY INCOME" onclick="monthly();"> <br>
+    
+          <label for="yearly income">ANNUAL INCOME:</label><br />
+          <input type="text" name="year" id="year">
+        
+          <input type="button"  class="btn2" value="CALCULATE ANNUAL INCOME" onclick="yearly();"><br>
+        </form>  
+        
+
+      </div>
+
     </div>
+     
     
 
     
